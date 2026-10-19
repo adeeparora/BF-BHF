@@ -58,7 +58,7 @@ Collection date: 2026-10-19 UTC.
 | BHF | concall-transcripts | [Transcript Jan 2025](../BHF/concall-transcripts/Transcript-Jan-2025-77b29da57a.pdf) | downloaded |
 | BHF | presentations | [PPT Jan 2025](../BHF/presentations/PPT-Jan-2025-d27e8ba952.pdf) | downloaded |
 | BHF | concall-transcripts | [Transcript Oct 2024](../BHF/concall-transcripts/Transcript-Oct-2024-ae5447785a.pdf) | downloaded |
-| BHF | presentations | [PPT Oct 2024](https://www.bajajhousingfinance.in/investor-presentation) | failed |
+| BHF | presentations | [PPT Oct 2024](https://www.bajajhousingfinance.in/investor-presentation) | alternate-archived |
 | BHF | presentations | [PPT Oct 2024](../BHF/presentations/PPT-Oct-2024-dd6d6e9cee.pdf) | downloaded |
 | BF | annual-reports | [Annual Report 2026](../BF/annual-reports/Annual-Report-2026-5535038a06.pdf) | downloaded |
 | BF | annual-reports | [Annual Report 2025](../BF/annual-reports/Annual-Report-2025-a968ba063f.pdf) | downloaded |
@@ -98,7 +98,7 @@ Collection date: 2026-10-19 UTC.
 | BF | presentations | [PPT Jul 2024](../BF/presentations/PPT-Jul-2024-d512098c95.pdf) | downloaded |
 | BF | concall-transcripts | [Transcript Apr 2024](../BF/concall-transcripts/Transcript-Apr-2024-67ac1ab48e.pdf) | downloaded |
 | BF | presentations | [PPT Apr 2024](../BF/presentations/PPT-Apr-2024-dade4833a1.pdf) | downloaded |
-| BF | concall-transcripts | [Transcript Apr 2024](https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcript-filepdf?scl=1&fmt=pdf) | failed |
+| BF | concall-transcripts | [Transcript Apr 2024](https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcript-filepdf?scl=1&fmt=pdf) | alternate-archived |
 | BF | presentations | [PPT Apr 2024](../BF/presentations/PPT-Apr-2024-dade4833a1.pdf) | duplicate |
 | BF | presentations | [PPT Apr 2024](../BF/presentations/PPT-Apr-2024-c39b3f0294.pdf) | downloaded |
 | BF | concall-transcripts | [Transcript Feb 2024](../BF/concall-transcripts/Transcript-Feb-2024-d26c01fa4b.pdf) | downloaded |
@@ -120,9 +120,9 @@ Collection date: 2026-10-19 UTC.
 | BF | concall-transcripts | [Transcript Oct 2021](https://www.bajajfinserv.in/fy-bajaj-finance-q2-conference-call-transcript.pdf) | failed |
 | BF | presentations | [PPT Oct 2021](../BF/presentations/PPT-Oct-2021-8171ac8720.pdf) | downloaded |
 | BF | concall-transcripts | [Transcript Sep 2021](https://www.bajajfinserv.in/bajaj-finance-group-call---organised-by-morgan-stanley-on-16-sep-2021.pdf) | failed |
-| BF | concall-transcripts | [Transcript Jul 2021](https://www.bajajfinserv.in/fy-bajaj-finance-q1-conference-call-transcript.pdf) | failed |
+| BF | concall-transcripts | [Transcript Jul 2021](https://www.bajajfinserv.in/fy-bajaj-finance-q1-conference-call-transcript.pdf) | alternate-archived |
 | BF | presentations | [PPT Jul 2021](../BF/presentations/PPT-Jul-2021-173d593516.pdf) | downloaded |
-| BF | concall-transcripts | [Transcript Apr 2021](https://www.bajajfinserv.in/fy21-bajaj-finance-q4-conference-call-transcript.pdf) | failed |
+| BF | concall-transcripts | [Transcript Apr 2021](https://www.bajajfinserv.in/fy21-bajaj-finance-q4-conference-call-transcript.pdf) | alternate-archived |
 | BF | presentations | [PPT Apr 2021](../BF/presentations/PPT-Apr-2021-d75ac696d7.pdf) | downloaded |
 | BF | concall-transcripts | [Transcript Jan 2021](../BF/concall-transcripts/Transcript-Jan-2021-af35a6f616.pdf) | downloaded |
 | BF | presentations | [PPT Jan 2021](../BF/presentations/PPT-Jan-2021-f3d215fafa.pdf) | downloaded |
@@ -146,8 +146,8 @@ Collection date: 2026-10-19 UTC.
 | BF | concall-transcripts | [Transcript Oct 2018](https://www.bajajfinserv.in/fy19-q2-bajaj-finance-transcript.pdf) | failed |
 | BF | presentations | [PPT Oct 2018](../BF/presentations/PPT-Oct-2018-43afab9d53.pdf) | downloaded |
 | BF | concall-transcripts | [Transcript May 2018](../BF/concall-transcripts/Transcript-May-2018-49f3059392.pdf) | downloaded |
-| BF | presentations | [PPT May 2018](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8486d97e-ab2b-4c8c-98be-b5929ca60a3c.pdf) | failed |
-| BF | presentations | [PPT Feb 2018](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95ec0129-8c66-442b-b662-7fd2a6ad1470.PDF) | failed |
+| BF | presentations | [PPT May 2018](../BF/presentations/PPT-May-2018-65eb721149.pdf) | downloaded |
+| BF | presentations | [PPT Feb 2018](../BF/presentations/PPT-Feb-2018-60d827af60.pdf) | downloaded |
 | BF | presentations | [PPT Oct 2017](../BF/presentations/PPT-Oct-2017-99c65e3131.pdf) | downloaded |
 | BF | concall-transcripts | [Transcript Aug 2017](../BF/concall-transcripts/Transcript-Aug-2017-71ebcc62ce.pdf) | downloaded |
 | BF | concall-transcripts | [Transcript May 2017](https://www.bajajfinserv.in/bajaj-finance-q3-conference-call-transcript-2016.pdf) | failed |
@@ -161,7 +161,7 @@ Collection date: 2026-10-19 UTC.
 | BF | presentations | [PPT May 2016](../BF/presentations/PPT-May-2016-91461a4340.pdf) | downloaded |
 | BF | concall-transcripts | [Transcript Feb 2016](../BF/concall-transcripts/Transcript-Feb-2016-012afa13d4.pdf) | downloaded |
 | BF | presentations | [PPT Feb 2016](../BF/presentations/PPT-Feb-2016-60e6219263.pdf) | downloaded |
-| BF | presentations | [Investor Presentation Feb-2018](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95ec0129-8c66-442b-b662-7fd2a6ad1470.pdf) | failed |
+| BF | presentations | [Investor Presentation Feb-2018](../BF/presentations/PPT-Feb-2018-60d827af60.pdf) | duplicate |
 | BHF | presentations | [Investor Presentation 17th AGM FY25](../BHF/presentations/Investor-Presentation-17th-AGM-FY25-af15538de8.pdf) | downloaded |
 | BF | annual-reports | [Annual Report 2011](../BF/annual-reports/Annual-Report-2011-6f1c0660d8.pdf) | downloaded |
 | BF | presentations | [Q4 FY2015 Investor Presentation](../BF/presentations/Q4-FY2015-Investor-Presentation-2b8ba0eb5a.pdf) | downloaded |
@@ -176,6 +176,8 @@ Collection date: 2026-10-19 UTC.
 | BF | concall-transcripts | [Transcript Apr 2022](../BF/concall-transcripts/Transcript-May-2018-49f3059392.pdf) | duplicate |
 | BF | concall-transcripts | [Transcript Jan 2023](../BF/concall-transcripts/Transcript-Jan-2023-631973fa92.pdf) | downloaded |
 | BF | concall-transcripts | [Transcript Oct 2022](../BF/concall-transcripts/Transcript-Oct-2022-f1fdd40ee9.pdf) | downloaded |
+| BF | concall-transcripts | [Transcript Jul 2021](../BF/concall-transcripts/Transcript-Aug-2017-71ebcc62ce.pdf) | duplicate |
+| BF | concall-transcripts | [Transcript Jul 2022](../BF/concall-transcripts/Transcript-Jul-2022-5b0d3326e0.pdf) | downloaded |
 
 ## Coverage
 

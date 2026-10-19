@@ -708,8 +708,9 @@
     "period": "Oct 2024",
     "url": "https://www.bajajhousingfinance.in/investor-presentation",
     "source": "https://www.screener.in/company/BAJAJHFL/",
-    "status": "failed",
-    "error": "Response is not a PDF"
+    "status": "alternate-archived",
+    "error": "Response is not a PDF",
+    "alternate_path": "BHF/presentations/PPT-Oct-2024-dd6d6e9cee.pdf"
   },
   {
     "company": "BHF",
@@ -1225,8 +1226,9 @@
     "period": "Apr 2024",
     "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcript-filepdf?scl=1&fmt=pdf",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "failed",
-    "error": "404 Client Error: Not Found for url: https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcript-filepdf?scl=1&fmt=pdf"
+    "status": "alternate-archived",
+    "error": "404 Client Error: Not Found for url: https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcript-filepdf?scl=1&fmt=pdf",
+    "alternate_path": "BF/concall-transcripts/Transcript-Apr-2024-67ac1ab48e.pdf"
   },
   {
     "company": "BF",
@@ -1499,8 +1501,9 @@
     "period": "Jul 2021",
     "url": "https://www.bajajfinserv.in/fy-bajaj-finance-q1-conference-call-transcript.pdf",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "failed",
-    "error": "404 Client Error: Not Found for url: https://www.bajajfinserv.in/fy-bajaj-finance-q1-conference-call-transcript.pdf; 404 Client Error: Not Found for url: https://cms-assets.bajajfinserv.in/is/content/bajajfinance/fy-bajaj-finance-q1-conference-call-transcriptpdf?fmt=pdf&scl=1"
+    "status": "alternate-archived",
+    "error": "404 Client Error: Not Found for url: https://www.bajajfinserv.in/fy-bajaj-finance-q1-conference-call-transcript.pdf; 404 Client Error: Not Found for url: https://cms-assets.bajajfinserv.in/is/content/bajajfinance/fy-bajaj-finance-q1-conference-call-transcriptpdf?fmt=pdf&scl=1",
+    "alternate_path": "BF/concall-transcripts/Transcript-Aug-2017-71ebcc62ce.pdf"
   },
   {
     "company": "BF",
@@ -1522,8 +1525,9 @@
     "period": "Apr 2021",
     "url": "https://www.bajajfinserv.in/fy21-bajaj-finance-q4-conference-call-transcript.pdf",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "failed",
-    "error": "404 Client Error: Not Found for url: https://www.bajajfinserv.in/fy21-bajaj-finance-q4-conference-call-transcript.pdf; 404 Client Error: Not Found for url: https://cms-assets.bajajfinserv.in/is/content/bajajfinance/fy21-bajaj-finance-q4-conference-call-transcriptpdf?fmt=pdf&scl=1"
+    "status": "alternate-archived",
+    "error": "404 Client Error: Not Found for url: https://www.bajajfinserv.in/fy21-bajaj-finance-q4-conference-call-transcript.pdf; 404 Client Error: Not Found for url: https://cms-assets.bajajfinserv.in/is/content/bajajfinance/fy21-bajaj-finance-q4-conference-call-transcriptpdf?fmt=pdf&scl=1",
+    "alternate_path": "BF/concall-transcripts/Transcript-Apr-2021-834e3a9ae9.pdf"
   },
   {
     "company": "BF",
@@ -1545,11 +1549,11 @@
     "period": "Jan 2021",
     "url": "https://www.bajajfinserv.in/bajaj-finance-q3-fy21-conference-call-transcript.pdf",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "downloaded",
     "path": "BF/concall-transcripts/Transcript-Jan-2021-af35a6f616.pdf",
     "sha256": "af35a6f616b362f2694015755f8c10e26ad7052825f4c6748434cfcdc24e5b10",
     "bytes": 258992,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q3-fy21-conference-call-transcriptpdf?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q3-fy21-conference-call-transcriptpdf?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -1571,11 +1575,11 @@
     "period": "Oct 2020",
     "url": "https://www.bajajfinserv.in/fy21-bajaj-finance-q2-conference-call-transcript.pdf",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "downloaded",
     "path": "BF/concall-transcripts/Transcript-Oct-2020-7e60fc6230.pdf",
     "sha256": "7e60fc623062c2bb9b22043e334f7972192dbe526a5c13ee046f88f38c0d70a9",
     "bytes": 216202,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/fy21-bajaj-finance-q2-conference-call-transcriptpdf?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/fy21-bajaj-finance-q2-conference-call-transcriptpdf?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -1620,11 +1624,11 @@
     "period": "May 2020",
     "url": "https://www.bajajfinserv.in/bajaj-finance-q4-conference-call-transcript-2020.pdf",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "downloaded",
     "path": "BF/concall-transcripts/Transcript-May-2020-3c32c807d2.pdf",
     "sha256": "3c32c807d21b3a4415886eeadfdb0ca60410978fd6f887f606033cfeeec2f3cf",
     "bytes": 353927,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcript-2020pdf?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcript-2020pdf?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -1659,11 +1663,11 @@
     "period": "Jan 2020",
     "url": "https://www.bajajfinserv.in/bajaj-finance-q3-conference-call-transcript-new.pdf",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "downloaded",
     "path": "BF/concall-transcripts/Transcript-Jan-2020-c4d306ba4c.pdf",
     "sha256": "c4d306ba4c5058cf0bcf23b017be8e8efb60edb4adebdf45a58654ad0e4913d5",
     "bytes": 284807,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q3-conference-call-transcript-newpdf?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q3-conference-call-transcript-newpdf?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -1685,11 +1689,11 @@
     "period": "Oct 2019",
     "url": "https://www.bajajfinserv.in/earnings-call-transcript-q2-fy-20-new.pdf",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "downloaded",
     "path": "BF/concall-transcripts/Transcript-Oct-2019-b61779f939.pdf",
     "sha256": "b61779f9391643962844a725fa9893881e78b700a029359d4cfd528e9c23472f",
     "bytes": 492944,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/earnings-call-transcript-q2-fy-20-newpdf?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/earnings-call-transcript-q2-fy-20-newpdf?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -1711,11 +1715,11 @@
     "period": "Jul 2019",
     "url": "https://www.bajajfinserv.in/earnings-call-transcript-q1-fy-20-new.pdf",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "downloaded",
     "path": "BF/concall-transcripts/Transcript-Jul-2019-19477e84fd.pdf",
     "sha256": "19477e84fd4f81345e70f557aa17656627f1264f04fac9d250df9672b9c9b611",
     "bytes": 502281,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/earnings-call-transcript-q1-fy-20-newpdf?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/earnings-call-transcript-q1-fy-20-newpdf?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -1737,11 +1741,11 @@
     "period": "May 2019",
     "url": "https://www.bajajfinserv.in/bajaj-finance-q4-conference-call-transcript-19.pdf",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "downloaded",
     "path": "BF/concall-transcripts/Transcript-May-2019-46f6922233.pdf",
     "sha256": "46f69222337cefc1fb260704c4c41ee3ac76e5a6783afed6ca4bd0366957f223",
     "bytes": 505706,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcript-19pdf?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcript-19pdf?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -1763,11 +1767,11 @@
     "period": "Jan 2019",
     "url": "https://www.bajajfinserv.in/q3-conference-call-transcript.pdf",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "downloaded",
     "path": "BF/concall-transcripts/Transcript-Jan-2019-6101417af0.pdf",
     "sha256": "6101417af0424298eaf27b17352ee6bdce712c3a4cb3096bbbc1ff57a2b05121",
     "bytes": 310500,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/q3-conference-call-transcriptpdf?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/q3-conference-call-transcriptpdf?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -1812,11 +1816,11 @@
     "period": "May 2018",
     "url": "https://www.bajajfinserv.in/bajaj-finance-q4-conference-call-transcript.pdf",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "downloaded",
     "path": "BF/concall-transcripts/Transcript-May-2018-49f3059392.pdf",
     "sha256": "49f30593922b1db7023b41b777d788ae61452238b66085788a0036d9011c0ac5",
     "bytes": 236803,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcriptpdf?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcriptpdf?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -1825,8 +1829,11 @@
     "period": "May 2018",
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8486d97e-ab2b-4c8c-98be-b5929ca60a3c.pdf",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "failed",
-    "error": "404 Client Error: Not Found for url: https://www.bseindia.com/xml-data/corpfiling/AttachHis/8486d97e-ab2b-4c8c-98be-b5929ca60a3c.pdf; 404 Client Error: Not Found for url: https://www.bseindia.com/xml-data/corpfiling/AttachLive/8486d97e-ab2b-4c8c-98be-b5929ca60a3c.pdf; Response is not a PDF"
+    "status": "downloaded",
+    "path": "BF/presentations/PPT-May-2018-65eb721149.pdf",
+    "sha256": "65eb7211492b6bf7eb5cc6748c4eb1075b1597036d42379c96c7b5c566f84dd4",
+    "bytes": 752244,
+    "resolved_url": "https://www.bseindia.com/xml-data/corpfiling/CorpAttachment/2018/5/8486d97e-ab2b-4c8c-98be-b5929ca60a3c.pdf"
   },
   {
     "company": "BF",
@@ -1835,8 +1842,11 @@
     "period": "Feb 2018",
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95ec0129-8c66-442b-b662-7fd2a6ad1470.PDF",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "failed",
-    "error": "404 Client Error: Not Found for url: https://www.bseindia.com/xml-data/corpfiling/AttachHis/95ec0129-8c66-442b-b662-7fd2a6ad1470.PDF; 404 Client Error: Not Found for url: https://www.bseindia.com/xml-data/corpfiling/AttachLive/95ec0129-8c66-442b-b662-7fd2a6ad1470.PDF; Response is not a PDF"
+    "status": "downloaded",
+    "path": "BF/presentations/PPT-Feb-2018-60d827af60.pdf",
+    "sha256": "60d827af60aa733a846d1d415be66eef723c97deb4cc209ef9f623a1019b3b59",
+    "bytes": 572815,
+    "resolved_url": "https://www.bseindia.com/xml-data/corpfiling/CorpAttachment/2018/2/95ec0129-8c66-442b-b662-7fd2a6ad1470.PDF"
   },
   {
     "company": "BF",
@@ -1858,11 +1868,11 @@
     "period": "Aug 2017",
     "url": "https://www.bajajfinserv.in/bajaj-finance-q1-conference-call-transcript.pdf",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "downloaded",
     "path": "BF/concall-transcripts/Transcript-Aug-2017-71ebcc62ce.pdf",
     "sha256": "71ebcc62ce215228e05d144e1d790515da4b83e8763a243d18e3fabbba7af357",
     "bytes": 218086,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q1-conference-call-transcriptpdf?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q1-conference-call-transcriptpdf?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -1920,11 +1930,11 @@
     "period": "Oct 2016",
     "url": "https://www.bajajfinserv.in/bajaj-finance-q2-conference-call-transcript-2016.pdf",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "downloaded",
     "path": "BF/concall-transcripts/Transcript-Oct-2016-26b3cea79d.pdf",
     "sha256": "26b3cea79d5c60efc50ab66aa5591dfa621b89d9d2bb08520740ae3d1ac890c2",
     "bytes": 267879,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q2-conference-call-transcript-2016pdf?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q2-conference-call-transcript-2016pdf?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -1959,11 +1969,11 @@
     "period": "May 2016",
     "url": "https://www.bajajfinserv.in/bajaj-finance-q4-conference-call-transcript-2015.pdf",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "downloaded",
     "path": "BF/concall-transcripts/Transcript-May-2016-615366bf35.pdf",
     "sha256": "615366bf350aec5d28c341e3781dba9a0c3af38d10a6c347cbfb05bce1885674",
     "bytes": 332378,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcript-2015pdf?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcript-2015pdf?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -1985,11 +1995,11 @@
     "period": "Feb 2016",
     "url": "https://www.bajajfinserv.in/bajaj-finance-q3-conference-call-transcript-2015.pdf",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "downloaded",
     "path": "BF/concall-transcripts/Transcript-Feb-2016-012afa13d4.pdf",
     "sha256": "012afa13d430ced770d314a55282e2eaf31dcc32cd9abe012511bb79bd3b5193",
     "bytes": 691745,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q3-conference-call-transcript-2015pdf?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q3-conference-call-transcript-2015pdf?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -2011,8 +2021,11 @@
     "period": "Feb-2018",
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95ec0129-8c66-442b-b662-7fd2a6ad1470.pdf",
     "source": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-    "status": "failed",
-    "error": "404 Client Error: Not Found for url: https://www.bseindia.com/xml-data/corpfiling/AttachHis/95ec0129-8c66-442b-b662-7fd2a6ad1470.pdf; 404 Client Error: Not Found for url: https://www.bseindia.com/xml-data/corpfiling/AttachLive/95ec0129-8c66-442b-b662-7fd2a6ad1470.pdf; Response is not a PDF"
+    "status": "duplicate",
+    "path": "BF/presentations/PPT-Feb-2018-60d827af60.pdf",
+    "sha256": "60d827af60aa733a846d1d415be66eef723c97deb4cc209ef9f623a1019b3b59",
+    "bytes": 572815,
+    "resolved_url": "https://www.bseindia.com/xml-data/corpfiling/CorpAttachment/2018/2/95ec0129-8c66-442b-b662-7fd2a6ad1470.PDF"
   },
   {
     "company": "BHF",
@@ -2034,11 +2047,11 @@
     "period": "",
     "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-24th-annual-reportpdf?fmt=pdf&scl=1",
     "source": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-24th-annual-reportpdf?fmt=pdf&scl=1",
-    "status": "downloaded",
     "path": "BF/annual-reports/Annual-Report-2011-6f1c0660d8.pdf",
     "sha256": "6f1c0660d84465458a300b89c85fdc5ed55e4885040e93234d230a4e031c41d1",
     "bytes": 919123,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-24th-annual-reportpdf?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-24th-annual-reportpdf?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -2047,11 +2060,11 @@
     "period": "",
     "url": "https://www.bajajfinserv.in/corporate/media/investor-presentation/FY15/bajaj-finance-q4-2014-investor-presentation.pdf",
     "source": "https://www.bajajfinserv.in/corporate/media/investor-presentation/FY15/bajaj-finance-q4-2014-investor-presentation.pdf",
-    "status": "downloaded",
     "path": "BF/presentations/Q4-FY2015-Investor-Presentation-2b8ba0eb5a.pdf",
     "sha256": "2b8ba0eb5ab3feabecd14283297be8dbbfab1057ee395b3b389aff5fdc1e2c26",
     "bytes": 2708296,
-    "resolved_url": "https://www.bajajfinserv.in/corporate/media/investor-presentation/FY15/bajaj-finance-q4-2014-investor-presentation.pdf"
+    "resolved_url": "https://www.bajajfinserv.in/corporate/media/investor-presentation/FY15/bajaj-finance-q4-2014-investor-presentation.pdf",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -2060,11 +2073,11 @@
     "period": "",
     "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/corporate-presentationpdf?fmt=pdf&scl=1",
     "source": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/corporate-presentationpdf?fmt=pdf&scl=1",
-    "status": "downloaded",
     "path": "BF/presentations/FY2015-Corporate-Presentation-e5dee79ad0.pdf",
     "sha256": "e5dee79ad054ee0d950271ca7fe229962b2693636e59b95e7fc4911b662a2048",
     "bytes": 1599869,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/corporate-presentationpdf?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/corporate-presentationpdf?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -2073,11 +2086,11 @@
     "period": "",
     "url": "https://www.bajajfinserv.in/corporate/media/investor-presentation/FY14/bajaj-finance-investor-presentation-q4-fy2013-14.pdf",
     "source": "https://www.bajajfinserv.in/corporate/media/investor-presentation/FY14/bajaj-finance-investor-presentation-q4-fy2013-14.pdf",
-    "status": "downloaded",
     "path": "BF/presentations/Q4-FY2014-Investor-Presentation-0e9c26d1d8.pdf",
     "sha256": "0e9c26d1d85c96379a459d561104e06c6a286fcf17ee2f3004a6eec595b352a2",
     "bytes": 883483,
-    "resolved_url": "https://www.bajajfinserv.in/corporate/media/investor-presentation/FY14/bajaj-finance-investor-presentation-q4-fy2013-14.pdf"
+    "resolved_url": "https://www.bajajfinserv.in/corporate/media/investor-presentation/FY14/bajaj-finance-investor-presentation-q4-fy2013-14.pdf",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -2086,11 +2099,11 @@
     "period": "",
     "url": "https://www.bajajfinserv.in/corporate/media/investor-presentation/FY14/bajaj-finance-q3-2013-presentation.pdf",
     "source": "https://www.bajajfinserv.in/corporate/media/investor-presentation/FY14/bajaj-finance-q3-2013-presentation.pdf",
-    "status": "downloaded",
     "path": "BF/presentations/Q3-FY2014-Investor-Presentation-c8f4d0d6eb.pdf",
     "sha256": "c8f4d0d6ebb83ae6c6d22c15d7ba5ceb5a640f9dda4dd8b9c5d4c36beea6358f",
     "bytes": 1529871,
-    "resolved_url": "https://www.bajajfinserv.in/corporate/media/investor-presentation/FY14/bajaj-finance-q3-2013-presentation.pdf"
+    "resolved_url": "https://www.bajajfinserv.in/corporate/media/investor-presentation/FY14/bajaj-finance-q3-2013-presentation.pdf",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -2099,11 +2112,11 @@
     "period": "",
     "url": "https://www.bajajfinserv.in/hindi/corporate/media/investor-presentation/FY13/bajaj-finance-q1-2012-presentation-international.pdf",
     "source": "https://www.bajajfinserv.in/hindi/corporate/media/investor-presentation/FY13/bajaj-finance-q1-2012-presentation-international.pdf",
-    "status": "downloaded",
     "path": "BF/presentations/Q1-FY2013-International-Investor-Presentation-35dd7be201.pdf",
     "sha256": "35dd7be201348de3f0f24b9e0201e45c5720c5975a67062cd631f1891f68264b",
     "bytes": 1249657,
-    "resolved_url": "https://www.bajajfinserv.in/corporate/media/investor-presentation/FY13/bajaj-finance-q1-2012-presentation-international.pdf"
+    "resolved_url": "https://www.bajajfinserv.in/corporate/media/investor-presentation/FY13/bajaj-finance-q1-2012-presentation-international.pdf",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -2112,11 +2125,11 @@
     "period": "",
     "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-2015-investor-presentationpdf?fmt=pdf&scl=1",
     "source": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-2015-investor-presentationpdf?fmt=pdf&scl=1",
-    "status": "downloaded",
     "path": "BF/presentations/Q4-FY2016-Investor-Presentation-027dc2332a.pdf",
     "sha256": "027dc2332aca5d11a160bee48102592f47fbbbb6a5b8ea66b61ac8025fda681a",
     "bytes": 1522623,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-2015-investor-presentationpdf?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-2015-investor-presentationpdf?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -2125,11 +2138,11 @@
     "period": "",
     "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/investor-presentation-28-10-2016pdf-1?fmt=pdf&scl=1",
     "source": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/investor-presentation-28-10-2016pdf-1?fmt=pdf&scl=1",
-    "status": "downloaded",
     "path": "BF/presentations/Q2-FY2017-Investor-Presentation-11b30030a1.pdf",
     "sha256": "11b30030a109e1910babb33f6726da052d730da3ef40d07b8d4001e8093cca28",
     "bytes": 559486,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/investor-presentation-28-10-2016pdf-1?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/investor-presentation-28-10-2016pdf-1?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -2138,11 +2151,11 @@
     "period": "",
     "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q1-fy27-investor-presentation?fmt=pdf&scl=1",
     "source": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q1-fy27-investor-presentation?fmt=pdf&scl=1",
-    "status": "downloaded",
     "path": "BF/presentations/Q1-FY2027-Investor-Presentation-45b664db8f.pdf",
     "sha256": "45b664db8fd9858654fa6cdd7cf1b696898a4869152cc3831d16e1a21610bb20",
     "bytes": 1483416,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q1-fy27-investor-presentation?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q1-fy27-investor-presentation?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -2151,11 +2164,11 @@
     "period": "",
     "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcriptpdf-3?fmt=pdf&scl=1",
     "source": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcriptpdf-3?fmt=pdf&scl=1",
-    "status": "downloaded",
     "path": "BF/concall-transcripts/Transcript-Apr-2021-834e3a9ae9.pdf",
     "sha256": "834e3a9ae9f708dc575f9b249e783fb59e2e441d5b34971a909f9c17d923bd85",
     "bytes": 239604,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcriptpdf-3?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcriptpdf-3?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -2164,11 +2177,11 @@
     "period": "",
     "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcriptpdf?fmt=pdf&scl=1",
     "source": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcriptpdf?fmt=pdf&scl=1",
-    "status": "duplicate",
     "path": "BF/concall-transcripts/Transcript-May-2018-49f3059392.pdf",
     "sha256": "49f30593922b1db7023b41b777d788ae61452238b66085788a0036d9011c0ac5",
     "bytes": 236803,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcriptpdf?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-conference-call-transcriptpdf?fmt=pdf&scl=1",
+    "status": "duplicate"
   },
   {
     "company": "BF",
@@ -2177,11 +2190,11 @@
     "period": "",
     "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/b3-2023pdf?fmt=pdf&scl=1",
     "source": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/b3-2023pdf?fmt=pdf&scl=1",
-    "status": "downloaded",
     "path": "BF/concall-transcripts/Transcript-Jan-2023-631973fa92.pdf",
     "sha256": "631973fa92f4db8db589a3b6f142d81605bfb9abfe7c1a594d8f7050e7da8e0b",
     "bytes": 381733,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/b3-2023pdf?fmt=pdf&scl=1"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/b3-2023pdf?fmt=pdf&scl=1",
+    "status": "downloaded"
   },
   {
     "company": "BF",
@@ -2190,10 +2203,36 @@
     "period": "",
     "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q2-conference-call-transcriptpdf-2?scl=1&fmt=pdf",
     "source": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q2-conference-call-transcriptpdf-2?scl=1&fmt=pdf",
-    "status": "downloaded",
     "path": "BF/concall-transcripts/Transcript-Oct-2022-f1fdd40ee9.pdf",
     "sha256": "f1fdd40ee9ac4c7773c855504a18706901e6f6319e4df46a0d01c609f337ce45",
     "bytes": 491401,
-    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q2-conference-call-transcriptpdf-2?scl=1&fmt=pdf"
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q2-conference-call-transcriptpdf-2?scl=1&fmt=pdf",
+    "status": "downloaded"
+  },
+  {
+    "company": "BF",
+    "kind": "concall-transcripts",
+    "title": "Transcript Jul 2021",
+    "period": "",
+    "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q1-conference-call-transcriptpdf?fmt=pdf&scl=1",
+    "source": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q1-conference-call-transcriptpdf?fmt=pdf&scl=1",
+    "status": "duplicate",
+    "path": "BF/concall-transcripts/Transcript-Aug-2017-71ebcc62ce.pdf",
+    "sha256": "71ebcc62ce215228e05d144e1d790515da4b83e8763a243d18e3fabbba7af357",
+    "bytes": 218086,
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q1-conference-call-transcriptpdf?fmt=pdf&scl=1"
+  },
+  {
+    "company": "BF",
+    "kind": "concall-transcripts",
+    "title": "Transcript Jul 2022",
+    "period": "",
+    "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q1-conference-call-transcript-cleanpdf?fmt=pdf&scl=1",
+    "source": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q1-conference-call-transcript-cleanpdf?fmt=pdf&scl=1",
+    "status": "downloaded",
+    "path": "BF/concall-transcripts/Transcript-Jul-2022-5b0d3326e0.pdf",
+    "sha256": "5b0d3326e0c4cf50305e5377bd5b0d5f079373f515d76e7f03ec60d22ba21252",
+    "bytes": 261294,
+    "resolved_url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q1-conference-call-transcript-cleanpdf?fmt=pdf&scl=1"
   }
 ]
