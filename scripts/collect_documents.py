@@ -7,6 +7,9 @@ from bs4 import BeautifulSoup
 
 ROOT=Path(".")
 rows=[]; errors=[]; seen=set()
+previous_path=Path("catalog/manifest.json")
+previous=json.loads(previous_path.read_text()) if previous_path.exists() else []
+cached={r["url"]:r for r in previous if r.get("path") and Path(r["path"]).exists()}
 def add(company,title,url,source,kind=None,period=""):
     url=urljoin(source,url)
     if not url.startswith("https://"): return
@@ -67,6 +70,15 @@ Path("catalog").mkdir(exist_ok=True)
 Path("catalog/discovered.json").write_text(json.dumps(rows,indent=2))
 def download(row):
     r=dict(row); url=row["url"]; candidates=[url]
+    if url in cached:
+        old=cached[url]
+        r.update({k:old[k] for k in ("path","sha256","bytes","resolved_url") if k in old})
+        r["status"]="downloaded"
+        return r,Path(r["path"]).read_bytes()
+    # Legacy issuer URLs migrated into the issuer's public asset repository.
+    if urlparse(url).netloc=="www.bajajfinserv.in" and urlparse(url).path.count("/")==1 and urlparse(url).path.endswith(".pdf"):
+        slug=urlparse(url).path.rsplit("/",1)[-1][:-4]+"pdf"
+        candidates.append("https://cms-assets.bajajfinserv.in/is/content/bajajfinance/"+slug+"?fmt=pdf&scl=1")
     if "AnnPdfOpen.aspx" in url:
         name=parse_qs(urlparse(url).query).get("Pname",[""])[0]
         if name:candidates=[f"https://www.bseindia.com/xml-data/corpfiling/AttachHis/{name}",f"https://www.bseindia.com/xml-data/corpfiling/AttachLive/{name}",url]
