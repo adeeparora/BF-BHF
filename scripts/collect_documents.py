@@ -107,6 +107,27 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:
                 path=Path(r["path"]);path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(data);hashes[key]=str(path)
         results.append(r)
         print(r["company"],r["status"],r["title"],flush=True)
+# Distinguish dead URLs with an archived alternate from actual unresolved gaps.
+def period_key(r):
+    title=r["title"].lower().replace("-"," ")
+    match=re.search(r"(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]* (20[0-9]{2})",title)
+    return (r["company"],r["kind"],match.group(0)[:3],match.group(2)) if match else None
+alternates={period_key(r):r for r in results if r.get("path") and period_key(r)}
+for r in results:
+    key=period_key(r)
+    if r["status"]=="failed" and key in alternates:
+        r["status"]="alternate-archived"
+        r["alternate_path"]=alternates[key]["path"]
+coverage=["# Archive coverage","","PDF files include distinct issuer and exchange filing versions; byte-identical copies are stored once.","","| Company | Annual reports | Presentations | Concall transcripts | Total PDFs |","|---|---:|---:|---:|---:|"]
+for company in ("BF","BHF"):
+    counts=[len({r["path"] for r in results if r.get("path") and r["company"]==company and r["kind"]==kind}) for kind in ("annual-reports","presentations","concall-transcripts")]
+    coverage.append("| "+company+" | "+" | ".join(map(str,counts))+" | "+str(sum(counts))+" |")
+coverage+=["","BF annual reports: FY2011–FY2026. BHF annual reports: FY2015–FY2026.","","Sources checked: issuer investor-relations pages, Screener document listings, linked BSE/NSE filings, and indexed historical issuer PDFs. Older BF reports are listed in third-party archives, but their downloadable copies were not obtained. No claim of complete lifetime coverage is made.","","## Unresolved source links",""]
+for r in results:
+    if r["status"]=="failed":
+        coverage.append("- "+r["company"]+": ["+r["title"]+"]("+r["url"]+")")
+coverage+=["","A dead source URL is marked alternate-archived in the manifest when a document with the same company, category and month/year label is already stored. Period labels follow sources; versions can differ. The BHF October 2024 PPT source is a listing page; its FY25 presentation PDFs are archived separately.",""]
+Path("catalog/COVERAGE.md").write_text("\n".join(coverage))
 Path("catalog/manifest.json").write_text(json.dumps(results,indent=2))
 Path("catalog/source-errors.json").write_text(json.dumps(errors,indent=2))
 lines=["# Document index","","Collection date: "+time.strftime("%Y-%m-%d")+" UTC.","","| Company | Type | Document | Status |","|---|---|---|---|"]
