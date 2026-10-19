@@ -4,7 +4,6 @@ from pathlib import Path
 from urllib.parse import urljoin, urlparse, parse_qs, unquote
 import requests
 from bs4 import BeautifulSoup
-from playwright.sync_api import sync_playwright
 
 ROOT=Path(".")
 rows=[]; errors=[]; seen=set()
