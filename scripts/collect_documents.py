@@ -34,49 +34,33 @@ SOURCES={
 "https://www.bajajfinserv.in/finance-investor-relations-investor-presentation",
 "https://www.bajajfinserv.in/finance-investor-relations-quarterly-earnings-call"],
 "BHF":["https://www.bajajhousingfinance.in/annual-reports","https://www.bajajhousingfinance.in/investor-presentation"]}
-with sync_playwright() as p:
-    browser=p.chromium.launch()
-    page=browser.new_page(user_agent="Mozilla/5.0")
-    for company,symbol in [("BF","BAJFINANCE/consolidated"),("BHF","BAJAJHFL")]:
-        source=f"https://www.screener.in/company/{symbol}/"
-        try:
-            page.goto(source,wait_until="domcontentloaded",timeout=60000)
-            page.wait_for_timeout(2000)
-            for a in page.locator("#documents a").evaluate_all("""els=>els.map(a=>({title:a.textContent.trim(),url:a.href,context:a.closest('li')?.innerText||''}))"""):
-                title=a["title"]; context=a["context"]
-                if title.startswith("Annual Report"):add(company,title,a["url"],source,"annual-reports",title[-4:])
+# Fetch public source pages concurrently with bounded timeouts.
+def scan(item):
+    company,source=item
+    try:
+        response=requests.get(source,headers={"User-Agent":"Mozilla/5.0"},timeout=25)
+        response.raise_for_status()
+        soup=BeautifulSoup(response.text,"html.parser")
+        for a in soup.select("a[href]"):
+            title=a.get_text(" ",strip=True)
+            parent=a.find_parent("li")
+            context=parent.get_text(" ",strip=True) if parent else ""
+            if "screener.in" in source:
+                if title.startswith("Annual Report"):
+                    add(company,title,a["href"],source,"annual-reports",title[-4:])
                 elif title in ("PPT","Transcript"):
-                    add(company,title+" "+context.split("\n")[0],a["url"],source,"presentations" if title=="PPT" else "concall-transcripts",context.split("\n")[0])
-        except Exception as e:errors.append(dict(source=source,error=str(e)))
-    for company,sources in SOURCES.items():
-        for source in sources:
-            try:
-                page.goto(source,wait_until="domcontentloaded",timeout=60000)
-                page.wait_for_timeout(3000)
-                def extract():
-                    # Include download controls and issuer cards, not only visible links.
-                    links=page.locator("a,[data-url],[data-href]").evaluate_all("""els=>els.map(a=>({url:a.href||a.getAttribute('data-url')||a.getAttribute('data-href')||'',title:(a.innerText||a.getAttribute('title')||a.closest('div')?.innerText||'').trim().slice(0,400)}))""")
-                    for a in links:
-                        if re.search(r"\.pdf|/documents/|fmt=pdf|/is/content/",a["url"],re.I):
-                            add(company,a["title"],a["url"],source)
-                extract()
-                selects=page.locator("select")
-                for i in range(selects.count()):
-                    options=selects.nth(i).locator("option").evaluate_all("els=>els.map(o=>o.value).filter(Boolean)")
-                    for value in options:
-                        try:
-                            selects.nth(i).select_option(value)
-                            page.wait_for_timeout(700)
-                            extract()
-                        except Exception:pass
-                # Document cards sometimes expose the PDF only through an onclick URL.
-                html=page.content()
-                for link in re.findall(r'https?[^\s"<>]+',html):
-                    link=link.replace("&amp;","&")
-                    if re.search(r"\.pdf|fmt=pdf",link,re.I):add(company,unquote(link.split("/")[-1]),link,source)
-            except Exception as e:errors.append(dict(source=source,error=str(e)))
-    browser.close()
-
+                    period=re.match(r"[A-Za-z]+ [0-9]{4}",context)
+                    period=period.group(0) if period else ""
+                    add(company,title+" "+period,a["href"],source,"presentations" if title=="PPT" else "concall-transcripts",period)
+            elif re.search(r"\\.pdf|/documents/|fmt=pdf|/is/content/",a["href"],re.I):
+                card=a.find_parent("div")
+                title=(card.get_text(" ",strip=True) if card else title)[:300]
+                add(company,title,a["href"],source)
+        print("Scanned",source,flush=True)
+    except Exception as e:errors.append(dict(source=source,error=str(e)))
+sources=[(c,s) for c,ss in SOURCES.items() for s in ss]+[("BF","https://www.screener.in/company/BAJFINANCE/consolidated/"),("BHF","https://www.screener.in/company/BAJAJHFL/")]
+with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+    list(pool.map(scan,sources))
 seed=Path("sources/seed.json")
 if seed.exists():
     for x in json.loads(seed.read_text()):add(**x)
@@ -90,7 +74,7 @@ def download(row):
     attempts=[]
     for candidate in candidates:
         try:
-            response=requests.get(candidate,headers={"User-Agent":"Mozilla/5.0","Referer":row["source"]},timeout=50)
+            response=requests.get(candidate,headers={"User-Agent":"Mozilla/5.0","Referer":row["source"]},timeout=20)
             response.raise_for_status()
             data=response.content
             if not data.lstrip().startswith(b"%PDF-"):raise ValueError("Response is not a PDF")
@@ -103,7 +87,7 @@ def download(row):
     r.update(status="failed",error="; ".join(attempts))
     return r,None
 results=[]; hashes={}
-with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:
     for r,data in pool.map(download,rows):
         if data:
             key=(r["company"],r["sha256"])
